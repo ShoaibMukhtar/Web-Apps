@@ -1,0 +1,118 @@
+
+body{   
+   display: flex;
+
+
+
+   
+}
+.cont{
+   display:flex ;
+   justify-content: center;
+   align-items: center;
+}
+.personal{
+    margin-top:20px;
+    height: 1050px;
+    width: 280px;
+    margin-left: 20px;
+    background-color: #1ABC9C;
+    display: flex;
+    flex-direction: column;
+    
+
+}
+#head{
+    height: 300px;
+    width: 280px;
+    background-color: #148F77 ;
+   
+}
+#pic{
+  height: 130px;
+  width: 120px;
+  margin-top: 40px;
+  margin-left: 55px;
+  overflow: hidden; /* Ensure the image stays within the round boundary */
+  border-radius: 50%; /
+  
+  
+}
+ #pic img{
+    object-fit:cover;
+ }
+ .name_txt{
+    text-align: center;
+    font-size: 31px;
+    font-weight: bold;
+    padding-top: 15px;
+    font-family: Arial;
+    color: white;
+ }
+ .name_txt1{
+    text-align: center;
+    font-size: 19px;
+    font-family: Arial;
+    color: white;
+ }
+ #email{
+    color: white;
+    font-size: 15px;
+    margin-top: 10px;
+ }
+ .contact{
+    color: white;
+    font-size: 15px;
+    margin-top: 10px;
+ }
+ .contact a{
+    padding-left: 8px;
+    padding-top: 10px;
+    color: white;
+    text-decoration-line: none;
+ }
+ .contact li{
+    margin-top: 10px;
+    list-style: none;
+ }
+.education{
+   color: white;
+   font-size: 15px;
+   margin-top: 35px;
+}
+.education li{
+   padding-top: 15px;
+}
+.lang{
+   margin-top: 35px;
+   font-family: Arial;
+   color: white;
+
+}
+.lang li{
+   padding-top: 15px;
+}
+.main{
+   border:none;
+   height:1050px ;
+   width: 650px;
+   margin-top: 20px;
+   background-color: aliceblue;
+}
+.info{
+   padding-left: 50px;
+   padding-top: 35px;
+   color: #148F77;
+   font-family: arial;
+}
+.fa{
+padding-right: 8px;
+border-radius: 50%;
+}
+.info li{
+   padding-top: 10px;
+}
+.cont{
+  
+   overflow: hidden;
+}
